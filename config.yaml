@@ -1,0 +1,45 @@
+timezone: Europe/London
+
+schedule:
+  post_days: [Tue, Thu]      # days a post goes live
+  post_time: "08:30"         # local time
+  draft_time: "18:00"        # draft arrives on Telegram the evening before each post day
+
+pillars:                     # share of posts over time
+  client_delivery: 0.35
+  safe_ai: 0.25
+  explain_simply: 0.20
+  build_in_public: 0.20
+
+pillar_labels:
+  client_delivery: Client delivery
+  safe_ai: Safe, measured AI
+  explain_simply: Explained simply
+  build_in_public: Building in public
+
+quality:
+  threshold: 80              # drafts below this go back for another pass
+  max_passes: 3
+  min_chars: 500
+  max_chars: 1800
+  max_hashtags: 3
+  max_emoji: 1
+
+topic_cooldown_days: 60
+note_window_days: 21
+
+models:
+  writer: claude-sonnet-5-5
+  fast: claude-haiku-5-5     # hooks and scoring
+
+github:
+  user: ByEmG                # recent public commits become material
+  enabled: true
+
+linkedin:
+  api_version: "202608"      # LinkedIn-Version header (YYYYMM). Bump if LinkedIn reports it as retired.
+  redirect_uri: http://localhost:8765/callback
+
+author:
+  name: Pierre Ankouane
+  site: www.pierreankouane.dev

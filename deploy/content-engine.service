@@ -1,0 +1,15 @@
+[Unit]
+Description=Pierre content engine (Telegram + LinkedIn)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+User=ubuntu
+WorkingDirectory=/home/ubuntu/pierre-content-engine
+ExecStart=/home/ubuntu/pierre-content-engine/.venv/bin/python -m engine run
+Restart=always
+RestartSec=10
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target

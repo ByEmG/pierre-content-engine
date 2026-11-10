@@ -1,0 +1,56 @@
+# Evergreen topic bank. The planner mixes these with your recent notes.
+# Each topic is used at most once every `topic_cooldown_days` (see config.yaml).
+- id: kampus-requirements
+  pillar: client_delivery
+  idea: "What the client asked for vs what they actually needed, from 16 Kampus meetings."
+- id: kampus-two-orgs
+  pillar: client_delivery
+  idea: "Running a delivery team of 15 across two companies and two countries."
+- id: kampus-weekly-loop
+  pillar: client_delivery
+  idea: "The weekly client loop (demo, capture changes, reprioritise, present) and why weekly beats monthly."
+- id: kampus-scope-change
+  pillar: client_delivery
+  idea: "Handling a mid-build change request without losing the client's trust."
+- id: kampus-three-schools
+  pillar: client_delivery
+  idea: "One client, three institutions, three different needs. How to scope tailored software without three separate projects."
+- id: meno-rules-not-ai
+  pillar: safe_ai
+  idea: "Why deterministic rules, not the AI, decide red flags in a clinical screening tool."
+- id: meno-targets-first
+  pillar: safe_ai
+  idea: "Agreeing measurable targets with the client before writing any code."
+- id: meno-dont-touch-live
+  pillar: safe_ai
+  idea: "Keeping phase one separate from the client's live booking system, and how it lowered the risk for the client."
+- id: evals-step-budget
+  pillar: safe_ai
+  idea: "Cutting an agent's step budget from 10 to 3: pass rate fell from 8/8 to 5/8, and every failure had the same cause."
+- id: evals-taxonomy
+  pillar: safe_ai
+  idea: "Naming failures (planning failure, premature termination) turns \"the agent is flaky\" into something you can fix."
+- id: explain-ai-summary
+  pillar: explain_simply
+  idea: "Explaining an AI-drafted summary with clinician sign-off to someone with no technical background."
+- id: explain-evals
+  pillar: explain_simply
+  idea: "What an \"eval\" is, explained as a driving test for software."
+- id: explain-rls
+  pillar: explain_simply
+  idea: "Row-level security explained as \"each school only sees its own students\"."
+- id: explain-requirements
+  pillar: explain_simply
+  idea: "Turning a client's wish list into a spec engineers can build from."
+- id: engine-why
+  pillar: build_in_public
+  idea: "Why I built my own content engine that only writes from my real work, never news."
+- id: engine-scorer
+  pillar: build_in_public
+  idea: "Why the scorer matters more than the writer in a multi-agent pipeline."
+- id: engine-fact-guard
+  pillar: build_in_public
+  idea: "A fact guard that blocks any number not in my knowledge base, and what it caught."
+- id: sitedue-interviews
+  pillar: build_in_public
+  idea: "Shaping SiteDue from customer interviews with electrical maintenance firms."
