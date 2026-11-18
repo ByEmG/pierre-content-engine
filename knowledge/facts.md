@@ -9,15 +9,19 @@ or the fact guard blocks it. Edit this file as your work moves on.
 - Afryx Labs is a client delivery consultancy: we turn client problems into working software.
 - Started April 2026. Works between Leeds and Yaoundé, Cameroon.
 
-## Kampus (client: the Fang group)
-- Kampus is a school management platform built for Fang, a private education group in Cameroon.
-- Fang has 3 institutions: Institut Privé Fang, Institut Supérieur Fang and Centre de Formation Fang. Each needs its own tailored software.
+## Kampus (client: Fang Institute)
+- Kampus is one mobile-first platform combining school management and online learning, built for Fang Institute in Cameroon.
+- Target go-live: mid-February 2027.
 - Delivered jointly by Afryx Labs and Kaeyros Analytics as one team of 15.
 - I lead requirements gathering and direct delivery alongside the Kaeyros technical lead.
 - Weekly client loop: demo progress, capture changes and missing features, reprioritise with the team, present the next iteration.
 - 16 client meetings so far.
 - The project is in active build. Do not say it is live or in production.
 - The client is happy to be named.
+
+## Institut Supérieur Fang de Messamena
+- Assistant Technology Engineer (contract), October 2025 to October 2026, remote.
+- Maintained IT lab infrastructure and network systems under a direct contract with the institute. Separate from Kampus.
 
 ## MenoClinic (client project, UK private menopause clinic)
 - An AI-assisted patient screening tool for a UK private menopause clinic.

@@ -52,7 +52,7 @@ def test_guard_blocks_dash_banned_phrase_student_restricted():
 
 
 def test_guard_blocks_kampus_live_claim():
-    g = guards.check("Kampus is live for all three schools." + LONG, FACTS, "", Q)
+    g = guards.check("Kampus is live for the whole institute." + LONG, FACTS, "", Q)
     assert not g.ok
 
 

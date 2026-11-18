@@ -104,8 +104,8 @@ DEFAULT_FAKE: dict = {
     "write": {
         "body": (
             "16 client meetings in, one habit matters more than any feature.\n\n"
-            "On Kampus, we build school management software for Fang, a private education group in Cameroon with 3 institutions.\n\n"
-            "Each institution needs its own tailored software. One client, three sets of needs.\n\n"
+            "On Kampus, we are building one mobile-first platform for school management and online learning for Fang Institute in Cameroon.\n\n"
+            "A school has many users with different needs: directors, teachers, students. One platform has to serve them all.\n\n"
             "So we never try to get the spec right in one go. Every week we run the same loop:\n\n"
             "1. Demo what we built\n"
             "2. Capture what changed and what is missing\n"

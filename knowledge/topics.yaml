@@ -12,9 +12,9 @@
 - id: kampus-scope-change
   pillar: client_delivery
   idea: "Handling a mid-build change request without losing the client's trust."
-- id: kampus-three-schools
+- id: kampus-one-platform
   pillar: client_delivery
-  idea: "One client, three institutions, three different needs. How to scope tailored software without three separate projects."
+  idea: "One platform for school management and online learning: why we built Kampus mobile-first for Fang Institute."
 - id: meno-rules-not-ai
   pillar: safe_ai
   idea: "Why deterministic rules, not the AI, decide red flags in a clinical screening tool."
